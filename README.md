@@ -27,3 +27,10 @@ tensorflow-gpu 2.10.0
 code1是原始版本，在使用已经训练好的模型和tokenizer时出现问题。
 
 code1_v2已经修改了这个问题。
+
+
+训练模型可直接使用命令
+
+python train.py
+
+需下载数据集，将data与train.py放在同一文件夹下。
