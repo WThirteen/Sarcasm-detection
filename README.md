@@ -22,3 +22,8 @@ numpy 1.24.4
 keras 2.10.0
 
 tensorflow-gpu 2.10.0
+
+
+code1是原始版本，在使用已经训练好的模型和tokenizer时出现问题。
+
+code1_v2已经修改了这个问题。
