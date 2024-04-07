@@ -12,6 +12,7 @@ Sarcasm Corpus V2
 
 数据集和已经训练好的模型放在百度网盘：
 
+链接: https://pan.baidu.com/s/1Btkmx-3orPr5zLrbz-k9qA 提取码: xnyq 
 
 
 python版本 3.10
