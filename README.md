@@ -21,9 +21,17 @@ tensorflow-gpu 2.10.0
 # 更新
 code1是原始版本，在使用已经训练好的模型和tokenizer时出现问题。
 
-code1_v2已经修改了这个问题。
+code1_v2已经修改了这个问题。  
+在predicate_v2.py中 更新 可输入 自定义语句 来判断是否讽刺。
 
 # 使用方法
-训练模型可直接使用命令  
-python train.py
+## 训练模型
+可直接使用命令  
+python train.py  
+或 python train_v2.py  
 _需下载数据集，将data与train.py放在同一文件夹下。_
+
+## 讽刺判断 
+1.predicate.py 版本需修改代码中的 *new_texts* 
+2.predicate_v2.py 版本 在运行后 通过输入自定义语句来判断是否讽刺  
+如想结束输入 使用*exit*结束输入，并对已输入的数据进行预测。
