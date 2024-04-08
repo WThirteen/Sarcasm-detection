@@ -12,8 +12,9 @@
 
 # 3.数据集和已经训练好的模型放在百度网盘：
 
-链接: https://pan.baidu.com/s/1Btkmx-3orPr5zLrbz-k9qA 提取码: xnyq 
-
+链接: https://pan.baidu.com/s/1Btkmx-3orPr5zLrbz-k9qA 提取码: xnyq  
+原模型的名字为 _my_model_old.h5_  
+用train_v3.py训练的模型为 _my_model.h5_
 # 4.版本
 python版本 3.10  
 numpy 1.24.4  
