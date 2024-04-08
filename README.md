@@ -35,6 +35,6 @@ code1_v2已经修改了这个问题。
 _需下载数据集，将data与train.py放在同一文件夹下。_
 
 ## 讽刺判断 
-1.predicate.py 版本需修改代码中的 *new_texts* 
-2.predicate_v2.py 版本 在运行后 通过输入自定义语句来判断是否讽刺  
+* 1.predicate.py 版本需修改代码中的 *new_texts*   
+* 2.predicate_v2.py 版本 在运行后 通过输入自定义语句来判断是否讽刺  
 如想结束输入 使用*exit*结束输入，并对已输入的数据进行预测。
