@@ -22,7 +22,18 @@ tensorflow-gpu 2.10.0
 code1是原始版本，在使用已经训练好的模型和tokenizer时出现问题。
 
 code1_v2已经修改了这个问题。  
-在predicate_v2.py中 更新 可输入 自定义语句 来判断是否讽刺。
+在predicate_v2.py中 更新 可输入 自定义语句 来判断是否讽刺。  
+**train_v3.py中,修改了数据集标签的问题。**  
+`def judge_data(data):
+    # 设置1为讽刺
+    # 0为非讽刺
+    lable=[0]*len(data)
+    temp=0
+    for i in data["class"]:
+        if i=='sarc':
+            lable[temp]=1
+        temp=temp+1    
+    return lable`
 
 # 使用方法
 ## 训练模型
