@@ -5,8 +5,10 @@
 
 # 2.训练模型的准确率和损失：
 
-![屏幕截图 2024-04-07 164841](https://github.com/WThirteen/Sarcasm-detection/assets/100677199/8749563d-a20e-41aa-a0c5-f33e9333708d)
-
+![training_1](https://github.com/WThirteen/Sarcasm-detection/assets/100677199/8749563d-a20e-41aa-a0c5-f33e9333708d)  
+## 使用train_v3.py训练模型的准确率和损失：
+*修正了数据集的标签
+![training_2](https://github.com/WThirteen/Sarcasm-detection/assets/100677199/7f30f7bd-62b3-48ae-ab46-acae7e5cadaa)
 
 # 3.数据集和已经训练好的模型放在百度网盘：
 
