@@ -29,8 +29,8 @@ code1_v2已经修改了这个问题。
 ## train_v3.py中,修改了数据集标签的问题。
 * train_v2.py 与 train.py 的数据集的标签都存在问题  
 * train_v3.py修改了这个问题
-* train_v4.py 在v3的基础上，增加了config，可通过修改config中参数修改训练轮次、数据集位置  
-
+## train_v4.py 在v3的基础上，增加了config，可通过修改config中参数修改训练轮次、数据集位置  
+## train_v5.py 在v4的基础上，修改了模型，增加了回调函数。
 
 # 使用方法
 ## 训练模型
