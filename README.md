@@ -7,7 +7,7 @@
 
 ![training_1](https://github.com/WThirteen/Sarcasm-detection/assets/100677199/8749563d-a20e-41aa-a0c5-f33e9333708d)  
 ## 使用train_v3.py训练模型的准确率和损失：
-*修正了数据集的标签
+* 修正了数据集的标签   
 ![training_2](https://github.com/WThirteen/Sarcasm-detection/assets/100677199/7f30f7bd-62b3-48ae-ab46-acae7e5cadaa)
 
 # 3.数据集和已经训练好的模型放在百度网盘：
@@ -28,14 +28,19 @@ code1_v2已经修改了这个问题。
 在predicate_v2.py中 更新 可输入 自定义语句 来判断是否讽刺。  
 ## train_v3.py中,修改了数据集标签的问题。
 * train_v2.py 与 train.py 的数据集的标签都存在问题  
-* 仅train_v3.py修改了这个问题  
+* train_v3.py修改了这个问题
+* train_v4.py 在v3的基础上，增加了config，可通过修改config中参数修改训练轮次、数据集位置  
 
 
 # 使用方法
 ## 训练模型
 可直接使用命令  
 `python train_v3.py`  
-_需下载数据集，将data与train.py放在同一文件夹下。_
+_需下载数据集，将data与train.py放在同一文件夹下。_  
+
+或直接使用  
+`python train_v4.py`  
+_可在config中修改数据集位置_  
 
 ## 讽刺判断 
 * 1.predicate.py 版本需修改代码中的 *new_texts*   
