@@ -3,16 +3,12 @@ import pandas as pd
 from keras.preprocessing.text import Tokenizer   
 from tensorflow.keras.preprocessing.sequence import pad_sequences # type: ignore
 from keras.models import Sequential  
-from keras.layers import Embedding, LSTM, Dense  
 from sklearn.model_selection import train_test_split  
 import json  
 from keras.models import load_model 
-
-from keras.models import Sequential  
 from keras.layers import Embedding, LSTM, Dense, BatchNormalization  
 from keras.optimizers import Adam  
 from keras.callbacks import EarlyStopping, ReduceLROnPlateau  
-import numpy as np  
 
 class Config():
     # 训练轮次
@@ -101,31 +97,6 @@ def prepare_data(padded_sequences,labels):
     # 假设 padded_sequences 是经过填充的序列，labels 是对应的标签  
     X_train, X_test, y_train, y_test = train_test_split(padded_sequences, labels, test_size=0.2, random_state=42)
     return X_train, X_test, y_train, y_test  
-
-
-# def model_train(tokenizer,max_len,X_train, X_test, y_train, y_test):
-    
-#     config=Config()
-    
-#     # 定义模型  
-#     model = Sequential()  
-#     model.add(Embedding(input_dim=len(tokenizer.word_index) + 1, output_dim=128, input_length=max_len))  
-#     model.add(LSTM(128, dropout=0.2, recurrent_dropout=0.2))  
-#     model.add(Dense(1, activation='sigmoid'))  # 假设是二分类问题  
-  
-#     # 编译模型  
-#     model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])  
-
-#     y_test = np.array(y_test)
-#     y_train = np.array(y_train)
-
-#     # 训练模型  
-#     model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=config.epoch, batch_size=32)  
-
-#     # 保存模型
-#     model.save('my_model.h5')
-
-
   
 def model_train(tokenizer, max_len, X_train, X_test, y_train, y_test):  
     
