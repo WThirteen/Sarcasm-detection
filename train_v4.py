@@ -119,11 +119,11 @@ def model_eval(X_test, y_test):
 
 def run():
     print("---load_data---")
-    texts,lables = load_data()
+    texts,labels = load_data()
     print("---creat_token---")
     tokenizer,sequences,max_len,padded_sequences = creat_token(texts)
     print("---prepare_data---")
-    X_train, X_test, y_train, y_test = prepare_data(padded_sequences,lables)
+    X_train, X_test, y_train, y_test = prepare_data(padded_sequences,labels)
     print("---train---")
     model_train(tokenizer,max_len,X_train, X_test, y_train, y_test)
     print("---model_eval---")
