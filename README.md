@@ -15,7 +15,9 @@
 * 第一次训练
 ![train_v5_v1](https://github.com/WThirteen/Sarcasm-detection/assets/100677199/c036b49a-7e24-4b83-b88a-ca4b79cafc6e)
 * 第二次训练
-![train_v5_v2](https://github.com/WThirteen/Sarcasm-detection/assets/100677199/b16a3e67-f96f-49a7-ac7e-81aa7f5752e4)
+![train_v5_v2](https://github.com/WThirteen/Sarcasm-detection/assets/100677199/b16a3e67-f96f-49a7-ac7e-81aa7f5752e4)  
+* 第三次训练
+![train_v5_v3](https://github.com/WThirteen/Sarcasm-detection/assets/100677199/29a67b46-3f0e-46ce-bca0-5e50fb69ff6b)  
 
 # 3.数据集和已经训练好的模型放在百度网盘：
 
