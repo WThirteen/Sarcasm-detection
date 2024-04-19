@@ -31,7 +31,12 @@ train_v5.py第一次训练 即 my_model_v5_v1.h5
 python版本 3.10  
 numpy 1.24.4  
 keras 2.10.0  
-tensorflow-gpu 2.10.0
+tensorflow-gpu 2.10.0  
+## 使用命令配置环境  
+```
+pip install -r requirements.txt
+```
+
 
 # 更新
 code1是原始版本，在使用已经训练好的模型和tokenizer时出现问题。
