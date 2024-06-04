@@ -1,7 +1,7 @@
 # Sarcasm-detection
 <h4 align="center">
 <p>
-<a href="https://github.com/WThirteen/Sarcasm-detection/edit/main/README.md">中文</a> |
+<a href="https://github.com/WThirteen/Sarcasm-detection/blob/main/README.md">中文</a> |
 <b> English</b>
 <p>
 </h4>
