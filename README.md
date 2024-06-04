@@ -2,7 +2,7 @@
 <h4 align="center">
     <p>
         <b>中文</b> |
-        <a href="(https://github.com/WThirteen/Sarcasm-detection/edit/main/README_EN.md">English</a>
+        <a href="https://github.com/WThirteen/Sarcasm-detection/edit/main/README_EN.md">English</a>
     <p>
 </h4>
 
