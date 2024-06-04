@@ -1,4 +1,12 @@
 # Sarcasm-detection
+<h4 align="center">
+    <p>
+        <b>中文</b> |
+        <a href="(https://github.com/WThirteen/Sarcasm-detection/edit/main/README_EN.md">English</a>
+    <p>
+</h4>
+
+</div>
 # 讽刺检测
 ## 1.数据集：
 * Sarcasm Corpus V2  
